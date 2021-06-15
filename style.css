@@ -71,3 +71,22 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+
+
+/******************* RESPONSIVE *****************/
+@media screen and (max-width: 419px) {
+  body {
+    background-color: #f2f2cd;
+  }
+
+  #lezioni>.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+}

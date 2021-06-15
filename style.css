@@ -79,23 +79,29 @@ img {
 /******************* RESPONSIVE *****************/
 @media screen and (max-width: 419px) {
   body {
-    background-color: #f2f2cd;
-  }
-
-  #lezioni>.row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-   
-
-  #steps>.row {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  #lezioni, #steps, #why {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f9f9f9;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 20px;
+  }
+
+  #lezioni, #why {
+  background-color: #f2f2cd;
+  }
+
+  .row {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
